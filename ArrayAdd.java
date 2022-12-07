@@ -8,7 +8,7 @@ public class ArrayAdd {
         //4.将 4 赋给 arrNew[arrNew.length - 1] = 4;把 4 赋给 arrNew 最后一个元素
         //5.让 arr 指向 arrNew ; arr = arrNew;
         int[] arrNew = new int[arr.length + 1];
-        for(int i = 0; i < arr.length; i++) {
+        for(int i = 0; i  < arr.length; i++) {
             arrNew[i] = arr[i];
         }
         arrNew[arrNew.length - 1] = 4;
