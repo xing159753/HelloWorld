@@ -1,6 +1,6 @@
-package com.xing.jdbc.dao_.dao;
+package com.xing.mhl.dao;
 
-import com.xing.jdbc.dao_.utils.JDBCUtilsByDruid;
+import com.xing.mhl.utils.JDBCUtilsByDruid;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
