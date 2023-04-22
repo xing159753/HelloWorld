@@ -1,6 +1,42 @@
-package com.xing.doublylinkedlist.a7;
+package com.xing.doublylinkedlist.a8;
 
 public class DoublyLinkedList {
+
+    public static void main(String[] args) {
+        //Create your subway line here:
+        DoublyLinkedList subway = new DoublyLinkedList();
+
+        subway.addToHead("Times Square");
+        subway.addToHead("Grand Central");
+        subway.addToHead("Central Park");
+        subway.printList();
+
+        subway.addToTail("Penn Station");
+        subway.addToTail("Wall Street");
+        subway.addToTail("Brooklyn Bridge");
+        subway.printList();
+
+        subway.removeHead();
+        subway.removeTail();
+        subway.printList();
+
+        subway.removeByData("Times Square");
+        subway.printList();
+
+        /*
+        DoublyLinkedList plane = new DoublyLinkedList();
+        plane.addToHead("beijing");
+        plane.addToTail("shanghai");
+        plane.addToTail("shuzou");
+        plane.addToHead("nanjing");
+        plane.printList();
+        plane.removeHead();
+        plane.printList();
+        plane.removeByData("shanghai");
+        plane.printList();
+        plane.removeByData("beijing");
+         */
+    }
 
     public Node head;
     public Node tail;
@@ -66,9 +102,8 @@ public class DoublyLinkedList {
         this.tail = removedTail.getPreviousNode();
 
         if (this.tail != null) {
-            this.tail.setNextNode(null);
+            this.tail.setPreviousNode(null);
         }
-
         if (removedTail == this.head) {
             this.removeHead();
         }
@@ -113,9 +148,5 @@ public class DoublyLinkedList {
         output += "<tail>";
         System.out.println(output);
         return output;
-    }
-
-    public static void main(String[] args) {
-
     }
 }
