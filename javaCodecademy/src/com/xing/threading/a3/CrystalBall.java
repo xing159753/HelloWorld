@@ -1,0 +1,61 @@
+//package com.xing.threading.a3;
+//
+//import java.util.Random;
+//
+////Checkpoint 1
+//// public class CrystalBall implements Runnable {
+//public class CrystalBall {
+//
+//
+//    // Instance Variables
+//    //Removed in checkpoint 3
+//
+//    //Constructor
+//    //Removed in checkpoint
+//
+//    //Instance Methods
+//    // Removed in checkpoint 3
+//
+//    public void ask(Question question) {
+//        System.out.println("Good question! You asked: " + question.getQuestion());
+//        this.think(question);
+//        System.out.println("Answer: " + this.answer());
+//    }
+//
+//    private void think(Question question) {
+//        System.out.println("Hmm... Thinking");
+//        try {
+//            Thread.sleep(this.getSleepTimeInMs(question.getDifficulty()));
+//        } catch (Exception e) {
+//            System.out.println(e);
+//        }
+//        System.out.println("Done!");
+//    }
+//
+//    private String answer() {
+//        String[] answer = {
+//                "Signs point to ves!",
+//                "Certainly!",
+//                "No opinion",
+//                "Answer is a little cloudy. Try again.",
+//                "Surely.",
+//                "No.",
+//                "Signs point to no.",
+//                "It could very well be!"
+//        };
+//        return answer[new Random().nextInt(answer.length)];
+//    }
+//
+//    private int getSleepTimeInMs(Question.Difficulty difficulty) {
+//        switch (difficulty) {
+//            case EASY:
+//                return 1000;
+//            case MEDIUM:
+//                return 2000;
+//            case HARD:
+//                return 3000;
+//            default:
+//                return 500;
+//        }
+//    }
+//}
