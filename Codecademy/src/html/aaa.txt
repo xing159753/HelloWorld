@@ -1,0 +1,30 @@
+请仔细阅读每一句话，以下为IT培训编程Web前端基础初级阶段学习内容
+
+Web前端基础由三部分组成,学习顺序为HTML -> CSS -> Javascript
+
+第一部分链接 先开始学Web前端三剑客基础 包括中文理论基础知识和代码
+HTML:
+https://www.runoob.com/html/html-tutorial.html
+CSS:
+https://www.runoob.com/css/css-tutorial.html
+Javascript:
+https://www.runoob.com/js/js-tutorial.html
+
+
+
+第二个为英文在线练习代码网站
+https://www.codecademy.com/learn/learn-html
+https://www.codecademy.com/learn/learn-css
+https://www.codecademy.com/learn/introduction-to-javascript
+
+codecademy
+账号 dreamtank007@gmail.com
+密码：Mt123456@
+
+这两个网站 同时进行 每天各学最少1-2个小时
+
+html5学完以后 就得开始框架学习了 首先必会的肯定是jquery
+https://www.runoob.com/jquery/jquery-tutorial.html
+
+最好先看下这个HTML DOM 教程
+https://www.runoob.com/htmldom/htmldom-tutorial.html
